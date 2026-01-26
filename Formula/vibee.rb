@@ -7,10 +7,10 @@ class Vibee < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/gHashTag/vibee-lang/releases/download/v1.0.0/vibee-macos-arm64"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "ef3e52c5ad79d57fa0e10cdfb838557e00980952fd310e28daac42c0e5837a97"
     else
       url "https://github.com/gHashTag/vibee-lang/releases/download/v1.0.0/vibee-macos-x86_64"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "a7c9910a11128a1504770277e27799da55be14a9fa4b85adf7878e17f326e3fe"
     end
   end
 
